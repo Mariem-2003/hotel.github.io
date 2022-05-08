@@ -1,0 +1,381 @@
+*{
+  font-weight: 200;
+  font-style: oblique;
+  font-family:"Sofia", sans-serif;
+  font-size: 25px;
+  margin: 0%;
+  margin-right:0%;
+border: 0px;
+}
+#search{
+ margin-bottom: 10px;
+ padding: 0%;
+}
+ul .dropdown-menu{
+  text-decoration: none;
+}
+#gh{
+  margin-top: 50%;
+}
+
+.container-fluid{
+  border: 0ch;
+  margin-top: 0%;
+
+}
+.right-menu li{
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+  display:inline;
+}
+.container-fluid{
+  height: 200px;
+  width: 100%;
+  background-image: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 250px; 
+   background-color: rgb(22, 22, 107);
+  color: #ffffff;
+  margin-top: auto ;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  display:block;
+  padding-top: 50px;
+ overflow-wrap: break-word;
+}
+header{
+  text-align: center;
+  padding: 0% 5%;
+  font-size: 45px;
+}
+#pho{
+  
+  margin: 80px 135px;
+  width: 60%;
+  border: 20px;
+
+
+}
+#ooo{
+ position: absolute;
+ margin-left:300px;
+ font-size: 40px;
+ background-color: rgb(214, 203, 178);
+ left: 30%;
+ top: 89%;
+ line-height: 60px;
+
+}
+
+#p{
+   
+  font-size:30px;
+  margin: 50px 50px;
+  position: absolute;
+  float: right;
+  border: 16px;
+  padding: 20px;
+  box-sizing:border-box;
+  box-shadow: 3px;
+  
+}
+#klp{
+  font-size: 40px;
+  padding: 35px;
+  text-align: center;
+  height: 40px;
+  border:20px ;
+
+  
+
+}
+.mm{
+ 
+  border-radius: 20px;
+  padding:100px 100px ;
+  box-shadow: 5px 3px;
+  margin: 5px 100px 5px 100px;
+ position: static;
+  background-image: url(picture/Royal\ Cliff\ Beach\ Hotel\ by\ DBALP.jpg);
+  text-align: center;
+ 
+  font-size: 35px;
+}
+#space{
+  text-align: center;
+  position: absolute;
+  border: 30px;
+padding: 20px;
+}
+
+
+.fram{
+  height: 100%;
+  width: 80%;
+}
+.text iframe{
+  font-size: 35px;
+  text-align: center;
+
+}
+
+footer.footer{
+  background-color: rgb(2, 11, 39);
+  font-style: oblique;
+  color:#fff5ee;
+  margin: 0 10 0 10px;
+}img.face{
+  width: 22px;
+  }
+  img.insta{
+  width: 22px;
+  }
+  img.twit{
+   width: 22px;
+   }
+   img.whats{
+    width: 22px;
+   }
+   p#copy-right{
+       text-align: center;
+   }
+   p#copy-right span{
+       color: sienna;
+       font-family: serif;
+   }
+   footer.footer p.foot{
+      display: inline-block;
+      font-weight: bold;
+  }
+  p.foot{
+      margin: 20px 50px 0px 30px;
+  }
+  div.null{
+      color: slategray;
+      font-size: smaller;
+      margin-top: -60px;
+      margin-left: 522px;
+  }
+  div.null2{
+      color: slategray;
+      font-size: smaller; 
+      margin-top: -80px;
+      margin-left: 220px;
+      margin-bottom: 80px;
+  }
+ 
+
+ div .tx video { 
+  font-size: 50px;
+  margin: 60px;
+}
+#nn{
+  font-size: 20px;
+}
+#video4{
+  width: 100%;
+  margin:10px 10px;
+  margin-right: 20%;
+
+}
+#title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 150px;
+  margin-bottom:90px ;
+  box-sizing: 200px 100px;
+  box-shadow:  8Spx 7px  rgba( 2 3 2 /18% );
+}
+.dd1{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.dd2 {
+  background-color:#fff;
+  width: auto;
+  box-shadow : 8Spx 7px  rgba( 2 3 2 /18% );
+  margin-bottom: 60px;
+  margin-right:30px;
+  box-shadow: 0 4px 5px 0 rgba( 0 , 0  ,50, 0.5 );
+}
+.dd3{
+  padding-top: 40px;
+  text-aline:justify;
+  
+}
+  
+
+
+.dd2 :hover{ 
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  font-size: 17px;
+}
+.dd4{
+  padding-top: 50px;
+  
+
+}
+.dd4 > p  {
+  font-size: 15px;
+}
+.aa1{
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  box-shadow :  1px 5px 7px 0 rgba( 0 , 1, 50, 0.6 );
+  margin-bottom :60px;
+  margin-left : 50px ;
+}
+.aa2{
+  padding-top: 10px;
+  width: 100%;
+  height: 100pX;
+  padding: 10px 0;
+  
+  
+}
+.aa3 > p{
+  
+font-size: 15px;
+}
+.aa3{
+  padding-top: 180px;
+}
+.aa1 :hover{ 
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  font-size: 17;
+ 
+}
+.bb1{
+  background-color:#ffffff;
+  width: 600px
+  box-shadow  8Spx 7px  rgba( 2 3 2 /18% );
+  margin-bottom: 60px;
+  margin-left:50px;
+  box-shadow :  1px 5px 7px 0 rgba( 0 , 1, 50, 0.6 );
+}
+.bb2{
+  padding-top: 100px;
+  width: 100px;
+  height: 100pX;
+  padding: 15px;
+  
+}
+.bb3 > p{
+  font-size: 15px;
+}
+  .bb1 :hover{ 
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  font-size: 17px;
+ 
+}
+.bb3{
+  padding-top: 160px;
+}
+.cc1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  }
+  .ff1 {
+    background-color:#fff;
+    width: auto;
+    box-shadow : 8Spx 7px  rgba( 2 3 2 /18% );
+    margin-bottom: 60px;
+    margin-right:30px;
+    box-shadow: 0 4px 5px 0 rgba( 0 , 0  ,50, 0.5 );
+  }
+  .ff2{
+    
+      padding-top: 40px;
+      text-aline:justify;
+      
+  }
+  .ff1 :hover{ 
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    font-size: 17px;
+  }
+
+  .gg3{
+    padding-top: 50px;
+    
+  
+  }
+  .ff3 > p  {
+    font-size: 15px;
+  }
+  .gg1 {
+    background-color:#fff;
+    width: auto;
+    box-shadow : 8Spx 7px  rgba( 2 3 2 /18% );
+    margin-bottom: 60px;
+    margin-right:30px;
+    box-shadow: 0 4px 5px 0 rgba( 0 , 0  ,50, 0.5 );
+  }
+  .gg2{
+    
+      padding-top: 40px;
+      text-aline:justify;
+      
+  }
+  .gg1 :hover{ 
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    font-size: 17px;
+  }
+
+  .gg3{
+    padding-top: 50px;
+    
+  
+  }
+  .gg3 > p  {
+    font-size: 15px;
+  }
+  .hh1 {
+    background-color:#fff;
+    width: auto;
+    box-shadow : 8Spx 7px  rgba( 2 3 2 /18% );
+    margin-bottom: 60px;
+    margin-right:30px;
+    box-shadow: 0 4px 5px 0 rgba( 0 , 0  ,50, 0.5 );
+  }
+  .hh2{
+    
+      padding-top: 40px;
+      text-aline:justify;
+      
+  }
+  .hh1 :hover{ 
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    font-size: 17px;
+  }
+
+  .hh3{
+    padding-top: 50px;
+    
+  
+  }
+  .hh3 > p  {
+    font-size: 15px;
+  }
+  #image map{
+    width: 100%;
+    margin-bottom: 300px;
+    padding-bottom: 100px;
+  }
