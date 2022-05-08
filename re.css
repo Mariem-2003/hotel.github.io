@@ -1,0 +1,239 @@
+body{ background-color:seashell}
+* {box-sizing:border-box ;}
+body {
+font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.info{ overflow:hidden;
+height:300px;
+width:250px;
+position:relative;
+margin:30px;
+
+}
+.info img{
+width:100%;
+height:100%;
+transition:2s;
+display:inline-table;
+}
+.info .caption{
+position:absolute;
+top:150%;
+width:100%;
+height:100%;
+background: rgba(0,0,0,0.69);
+transition:0.7s;
+text-align:center;}
+
+.info .caption .content{
+position:relative;
+color:#fff;}
+ .info .caption .content button{
+border:0;
+background:#9a1919;
+padding:7px;}
+
+
+.info:hover .caption{
+top:0px}
+.info:hover img{transform: scale(1.5);}
+.mn{
+  display: flex;
+}
+ .cafe{
+  
+   width: 100%;
+   padding:12px;
+   
+   
+  
+ }
+ .serves {
+width: 100%;
+} .details3, .details2 {
+  text-align: left;
+  padding: 16px;
+}.details:nth-child(odd) {
+  background-color:#f7efefea
+
+}
+
+.details:nth-child(even) {
+  background-color:#b49d6a
+  
+}
+footer.footer{
+  background-color: rgb(2, 11, 39);
+  font-style: oblique;
+  color:#fff5ee;
+  margin: 0 10 0 10px;
+
+}
+
+img.face{
+width: 22px;
+}
+img.insta{
+width: 22px;
+}
+img.twit{
+width: 22px;
+}
+img.whats{
+width: 22px;
+}
+p#copy-right{
+   text-align: center;
+}
+p#copy-right span{
+   color: sienna;
+   font-family: serif;
+}
+
+footer.footer p.foot{
+  display: inline-block;
+  font-weight: bold;
+}
+p.foot{
+  margin: 20px 50px 0px 30px;
+}
+div.null{
+  color: slategray;
+  font-size: smaller;
+  margin-top: -60px;
+  margin-left: 522px;
+}
+div.null2{
+  color: slategray;
+  font-size: smaller; 
+  margin-top: -80px;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+.FONT{font-family: MERINDA;
+  background-color: #fff;
+  
+  font-size: 50px; 
+;}
+.name{width: 200px;
+  height: 200px;
+   clip-path: circle(50% at 50% 50%);
+  
+  }
+
+
+.name{clip-path: circle(50% at 50% );
+width: 200px;
+  height: 200px;
+ 
+}
+.cut{display: flex ;
+  justify-content:space-evenly ;
+
+ }
+ .links{
+  border-radius:10px;
+        }
+  .links:hover{
+  background-color:rgb(17, 44, 17);
+              }
+ .clear {  width: 100px;
+ height:100px;
+ }  
+ .icons{display: flex ;
+  justify-content:space-evenly ;  }  
+   
+.form23 {font-family:MERINDA;
+font-size: 40px;
+text-align: center;}
+.input23 {size: 60px;
+}
+.textarea {text-align: center;}
+
+/* Container needed to position the button. Adjust the width as needed */
+.page {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.page img {
+  width: 1500PX;
+  height: 250PX;
+}
+
+/* Style the button and place it in the middle of the container/image */
+
+  .btn{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #008CBA;
+  float: right;}
+
+.page .btn:hover {
+  background-color: black;
+}
+.vid16{text-align: center;}
+.center{text-align: center;}
