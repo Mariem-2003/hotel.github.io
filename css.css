@@ -1,0 +1,554 @@
+  #search{
+    color:rgb(15,33,83);
+    margin: 37px;
+
+}
+#input1{
+    color: rgb(15, 33, 83);
+    margin: 40;
+    padding: 0;
+    height: 25px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: rgb(15, 33, 83) solid 2px;
+    background-color: transparent;
+}
+#input2{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+div.search{
+    display: flex;
+}
+header.header{
+    background-color:rgb(15, 33, 83);
+    color:rgb(252, 243, 231); 
+    height: 170px;
+    font-family: Garamond,serif,Times,Arial ;
+    font-size: larger;
+    margin: 0%;
+}
+#logo{
+
+    width: 40px;
+    top: 100px;
+    right:40px;
+
+}
+ul.nav{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: flex;/*make them at one line*/
+    list-style-type: none;/*remove the list marks*/
+    float: right;
+
+}
+
+ul.nav li{
+    margin: 30px;/*to make spaces betwean them*/
+}
+li.h a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.f a{
+text-decoration: none;
+padding: 6px 15px;
+border-radius: 20px;
+}
+li.c a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.a a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.h a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.f a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.c a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.a a:hover{
+    background-color: #0f2153;
+    color: seashell;
+}
+
+footer.footer{
+    background-color: rgb(2, 11, 39);
+    font-style: oblique;
+    color:#fff5ee;
+    margin: 0 10 0 10px;
+}
+h2.log{
+    color: tomato;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+div.boxes{
+    margin-left:  25px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+form.log{
+    bottom: 600px;
+    left:400px;
+}
+/*form.log p{
+    color: slategray;
+    margin-left: 20px;
+    margin-top: 50px;
+}*/
+div.social-icons{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+img.face{
+width: 22px;
+}
+img.insta{
+width: 22px;
+}
+img.twit{
+ width: 22px;
+ }
+ img.whats{
+  width: 22px;
+ }
+ p#copy-right{
+     text-align: center;
+ }
+ p#copy-right span{
+     color: sienna;
+     font-family: serif;
+ }
+
+body.login img.login{
+ width: 99%;
+ margin-left: 6px;
+ opacity: .5;/*makes img not clear 100%*/
+}
+
+footer.footer p.foot{
+    display: inline-block;
+    font-weight: bold;
+}
+p.foot{
+    margin: 20px 50px 0px 30px;
+}
+div.null{
+    color: slategray;
+    font-size: smaller;
+    margin-top: -60px;
+    margin-left: 522px;
+}
+div.null2{
+    color: slategray;
+    font-size: smaller; 
+    margin-top: -80px;
+    margin-left: 220px;
+    margin-bottom: 80px;
+}
+body.home{
+    background-color:seashell ;
+}
+h2.head{
+    margin-left: 30px;
+    color: #020b27;
+    text-shadow: rosybrown;
+    font-weight: bold;
+}
+body.rooms1{
+  background-color: seashell;
+    }
+
+h1.title{
+    color: rgb(15, 33, 83);
+    margin: 2%;
+  
+}
+video.rooms{
+  width: 40%;
+   height: 300px;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right:30%;
+}
+h2.single{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    color: saddlebrown;
+}
+p.single{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+margin-left: 7%;
+margin-right: 25%;
+}
+h2.double{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    color: saddlebrown;
+}
+p.double{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+h2.triple{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: saddlebrown;
+}
+p.triple{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+h2.family{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 3%; 
+    color: saddlebrown; 
+}
+div.family{
+    margin-left:5%;
+    margin-right:5%;
+}
+p.family{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+h2.suite{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 3%; 
+    color:darkcyan ;
+}
+/*div.suite{
+    margin-left:5%;
+    margin-right:5%;
+}*/
+p.suite{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+h1.spetial{
+   font-family:fantasy;
+   font-weight: lighter;
+   color: rgb(18, 7, 113);
+   text-decoration: overline underline;
+   text-decoration-style: double;
+   margin:5%;
+   text-align: center;
+   background-color: antiquewhite;
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+button.booking{
+   color: seashell;
+   background-color: #0f2153;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   margin-left: 8%;
+}
+h3.price1{
+    margin-left:8%;
+    margin-top:2%;
+    color: sienna;
+}
+h5.price2{
+    margin-left:9%;
+    margin-top:2%;
+}
+h3.price3{
+    margin-left:8%;
+    margin-top:2%;
+    color: sienna;
+}
+h5.price4{
+    margin-left:9%;
+    margin-top:2%;
+}
+h3.price5{
+    margin-left:8%;
+    margin-top:2%;
+    color: sienna;
+}
+h5.price6{
+    margin-left:9%;
+    margin-top:2%;
+}
+h2.pricef1{
+    margin-left: 8%;
+    margin-top: 2%;
+    color:sienna;
+    
+}
+span.pricef1{
+    margin-left: 9%;
+    margin-top: 2%;
+    color: rgb(99, 96, 96);
+    text-decoration: line-through;
+}
+h5.pricef2{
+    margin-left:9%;
+    margin-top:2%;
+}
+h3.prices1{
+    margin-left: 8%;
+    margin-top: 2%;
+    color: cornflowerblue;
+}
+h5.prices2{
+    margin-left:9%;
+    margin-top:2%;
+}
+section.single{
+    padding: 2%;
+   background-color: rgb(248, 235, 225);
+   border-radius: 15px;
+}
+section.double{
+    padding: 2%;
+    background-color: rgb(250, 231, 209);
+    border-radius: 15px;
+}
+section.triple{
+    padding: 2%;
+    background-color: rgb(254, 222, 185);
+    border-radius: 15px;
+}
+section.family{
+    padding:2%;
+    background-color: rgba(249, 200, 160, 0.897);
+    border-radius: 15px;
+}
+section.suite{
+    padding: 2%;
+    background-color: rgb(238, 239, 240);
+    border-radius: 15px;
+}
+img.room1{
+    margin-right: 1.5%;
+}
+img.room2{
+    margin-right:1.5%;
+}
+img.room3{
+    margin-right:1.5%;
+}
+img.room5{
+    margin-right:1.5%;
+}
+img.room6{
+    margin-right:1.5%;
+}
+img.room7{
+    margin-right:1.5%;
+}
+img.room8{
+    margin-right:1.5%;
+}
+img.room9{
+    margin-right:1.5%;
+}
+img.room10{
+    margin-right:1.5%;
+}
+img.room11{
+    margin-right:1.5%;
+}
+img.room12{
+    margin-right:1.5%;
+}
+img.room13{
+    margin-right:1.5%;
+}
+img.room14{
+    margin-right:1.5%;
+}
+img.room15{
+    margin-right:1.5%;
+}
+img.room16{
+    margin-right:1.5%;
+}
+img.room17{
+    margin-right:1.5%;
+}
+img.room18{
+    margin-right:1.5%;
+}
+img.room19{
+    margin-right:1.5%;
+}
+img.room20{
+    margin-right:1.5%;
+}
+section.king{
+    background-color: rgba(210, 209, 209, 0.881);
+    padding: 2%;
+    border-radius: 15px;
+}
+h2.king{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: #0f2153;
+}
+p.king{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+section.queen{
+    padding: 2%;
+    background-color: rgb(248, 219, 233);
+    border-radius: 15px;
+}
+section.president{
+    padding: 2%;
+    background-color: rgb(250, 222, 190);
+    border-radius: 15px;
+}
+img.king1{
+    width: 21%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+img.king2{
+    width: 19%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+img.king3{
+    width: 20%;
+    margin-right: 3%;
+    margin-left: 4%;
+}
+h2.queen{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: #a45f88;
+}   
+img.queen1{
+    width: 19%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+img.queen2{
+    width: 22%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+img.queen3{
+    width: 20%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+p.queen{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  margin-left: 7%;
+  margin-right: 25%;
+}
+img.queen4{
+    width: 20px;
+}
+h3.priceq1{
+    margin-left: 8%;
+    margin-top: 2%;
+    color: rgb(245, 110, 157);
+}
+h5.priceq2{
+    margin-left:9%;
+    margin-top:2%;
+}
+img.pre1{
+    margin-right: 1.5%;
+    width: 22%;
+}
+img.pre2{
+    margin-right: 1.5%;
+    width: 22%;
+}
+img.pre3{
+    margin-right: 1.5%;
+    width: 22%;
+}
+img.pre4{
+    margin-right: 1.5%;
+    width: 21%;
+}
+p.pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-left: 7%;
+    margin-right: 25%;
+}
+h2.president{
+    color:rgb(230, 132, 12);
+}
+h3.pricep1{
+    margin-left: 8%;
+    margin-top: 2%;
+    color: rgb(206, 114, 9);
+}
+h5.pricep2{
+    margin-left:9%;
+    margin-top:2%;
+}
+button.next{
+    background-color: rgb(110, 7, 7);
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    border-style: none;
+    float:right;
+    margin-bottom: 7%;
+    font-size: larger;
+    margin-right: 10%;
+}
+section.next{
+    background-color: antiquewhite;
+    padding: 4%;
+    border-radius: 10px;
+}
+h2.next{
+    color:rgb(110, 7, 7);
+    margin-left: 20%;
+}
+
+
