@@ -1,0 +1,206 @@
+#search{
+    color:rgb(15,33,83);
+    margin: 37px;
+
+}
+div.search{
+    display: flex;
+}
+#input1{
+    color: rgb(15, 33, 83);
+    margin: 40;
+    padding: 0;
+    height: 25px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: rgb(15, 33, 83) solid 2px;
+    background-color: transparent;
+}
+#input2{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+    border-radius: 6px;
+    margin: 30px;
+}
+header.header{
+    background-color:rgb(15, 33, 83);
+    color:rgb(252, 243, 231); 
+    height: 170px;
+    font-family: Garamond,serif,Times,Arial ;
+    font-size: larger;
+    margin: 0%;
+}
+#logo{
+
+    width: 40px;
+    top: 100px;
+    right:40px;
+
+}
+ul.nav{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: flex;/*make them at one line*/
+    list-style-type: none;/*remove the list marks*/
+    float: right;
+
+}
+
+ul.nav li{
+    margin: 30px;/*to make spaces betwean them*/
+}
+li.h a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.f a{
+text-decoration: none;
+padding: 6px 15px;
+border-radius: 20px;
+}
+li.c a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.a a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+li.h a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.f a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.c a:hover{
+    background-color: rgb(15, 33, 83);
+    color: seashell;
+}
+li.a a:hover{
+    background-color: #0f2153;
+    color: seashell;
+}
+
+footer.footer{
+    background-color: rgb(2, 11, 39);
+    font-style: oblique;
+    color:#fff5ee;
+    margin: 0 10 0 10px;
+}
+div.social-icons{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+img.face{
+width: 22px;
+}
+img.insta{
+width: 22px;
+}
+img.twit{
+ width: 22px;
+ }
+ img.whats{
+  width: 22px;
+ }
+ p#copy-right{
+     text-align: center;
+ }
+ p#copy-right span{
+     color: sienna;
+     font-family: serif;
+ }
+ footer.footer p.foot{
+    display: inline-block;
+    font-weight: bold;
+}
+p.foot{
+    margin: 20px 50px 0px 30px;
+}
+div.null{
+    color: slategray;
+    font-size: smaller;
+    margin-top: -60px;
+    margin-left: 522px;
+}
+div.null2{
+    color: slategray;
+    font-size: smaller; 
+    margin-top: -80px;
+    margin-left: 220px;
+    margin-bottom: 80px;
+}
+body.rooms{
+    background-color: seashell;
+}
+table.space{
+    width: 30%;
+    float: right;
+   
+}
+td.cells{
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: rgb(157, 196, 244,45%);
+    text-align: center;
+    border-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(96, 56, 39);
+}
+th.cells{
+    border: 2px solid;
+    border-radius: 8px;
+    color: rgb(41, 55, 101);
+    text-align: center;
+    border-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(255, 225, 211);
+}
+tr:nth-child(even){
+    background-color:rgb(243, 193, 193) 
+}
+div.space{
+    margin-bottom: 16%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+p.space{
+color: #0f2153;
+}
+h2.space{
+    margin: 3%;
+    color: #0f2153;
+   
+}
+span.space{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(223, 134, 57) ;
+}
+span.point{
+    color: #0f2153
+    font-size: large;
+}
+img.point{
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
