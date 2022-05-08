@@ -12,7 +12,7 @@ a{
 }
 .first {
 
-  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.1)), url("../media/amol-tyagi-0juktkOTkpU-unsplash3.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.1)), url("amol-tyagi-0juktkOTkpU-unsplash3.jpg");
   background-position: center;
   background-size: cover;/*bt5li el sora temla el el main kolha */
   min-height:100vh;
@@ -203,7 +203,7 @@ margin-left: 1em;
     letter-spacing: .5em;
 }
 .photos{
-  background-image: url("../media/acessControl.jpg");
+  background-image: url("acessControl.jpg");
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -220,12 +220,12 @@ right: 14.0%;
 
   @keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
      {
-       0%{background-image: url("../media/acessControl.jpg");  }
-       20%{background-image: url("../media/fire2.jpg"); }
-        40%{background-image: url("../media/virus.jpg"); }
-       60%{background-image: url("../media/human.jpg"); }
-       80%{background-image: url("../media/Vehicle Security.jpg"); }
-       100%{ background-image: url("../media/acessControl.jpg"); }
+       0%{background-image: url("acessControl.jpg");  }
+       20%{background-image: url("fire2.jpg"); }
+        40%{background-image: url("virus.jpg"); }
+       60%{background-image: url("human.jpg"); }
+       80%{background-image: url("Vehicle Security.jpg"); }
+       100%{ background-image: url("acessControl.jpg"); }
 
   }
   .photos:hover{
@@ -351,7 +351,7 @@ align-items: flex-start;
 flex-direction: column;
 justify-content: center;
 padding: 2%;
-background-image: url("../media/main.jpg");
+background-image: url("main.jpg");
 background-size: cover;
   background-position: center;
   object-fit: cover;
