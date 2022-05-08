@@ -1,0 +1,862 @@
+*{
+  margin: 0;
+  padding: 0;
+  white-space: wrap;/*bt5aly el klam lma yktar fe el satr el saf7a mat3rdh w el klam ynzel el satr ely ba3do*/
+
+
+
+}
+body{
+  font-family: system-ui;
+}
+a{
+  text-decoration: none;/*عشان يشيل الخط اللي تحته*/
+
+}
+header{
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  display:flex;
+  justify-content: space-between; /* عملت space بين ال smartee و بين الmenu*/
+  align-items: center;
+  background-color:#f2f2f2;
+  /*padding: 10px 50px;up&down right&left*/
+  color: #3a6cf4;
+  font-weight:700;
+}
+header .logo{
+  font-size:30px;
+  text-transform:uppercase;/*اول حرف بس هو اللي capital*/
+  /*font-weight:100; increases letters bolt */
+}
+header ul{
+    display: flex;
+    justify-content: center;/*x axis*/
+    align-items: center;/*y axis */
+
+
+}
+header ul li{
+  margin-right: 30px;
+
+}
+header ul li a{
+  padding: 6px 15px;/* عشان يكون فيه مساحه حوالين الكلام متلونه مش الكلام بس */
+  border-radius: 20px;
+}
+header ul li a:hover{
+
+  color: #668cff;
+}
+.main{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)),url("../media/main.jpg") ;/* etgah el / e5tlaf 3n el html*/
+  background-position: center;
+  background-size: cover;/*bt5li el sora temla el el main kolha */
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;/*mkansh ynfa3 tt3ml 8er m3 display flex w de 3mlt stretch ll7rof*/
+/*34an ta5od el fram kolo*/
+
+}
+.heading{
+  display:inline-block;
+  padding: 40px 40px ;
+  box-sizing:border-box;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color:#ffffff;
+  font-size: 2.9em;
+  font-family:  Georgia, serif;
+  color: #685244;
+  text-transform: capitalize;
+  font-weight:300;
+  text-align-last: center;
+
+}
+
+.content span{
+  font-family:  arial, sans-serif;
+  font-size: .49em;
+  color: black;
+  font-weight:200;
+
+
+}
+.btn{
+ padding: 15px 15px;
+margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 0.625em;
+  background-color: #685244;
+  color: #ffffff;
+  font-family: arial, sans-serif;
+  font-weight: 600;
+  font-size: .31em;
+  text-align: center;
+
+  margin-top: .5em;
+
+  /*transition: 0.2s ease ;*//*by5ly el button y5bar bbot2*/
+}
+.btn:hover{
+  background-color: #9a7965;
+  cursor:pointer;
+  /*transform: scale(1.07);*//*da y5le el zorar ykbar lma el mouse gege 3leh */
+}
+.quote {
+  margin-top: 2%;
+  padding: 30px;
+  text-align:center;
+
+  letter-spacing: 2px;
+}
+.line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.col{
+  display: table;/* Make the container element behave like a table */
+  margin: 3.5em ;
+
+
+
+}
+.card{
+  display: table-cell;/* Make elements inside the container behave like table cells */
+  width: 25%;
+  padding: 3.875em 1.875em;
+  transition: 0.7s ease ;
+margin: .5%;
+text-align: center;
+font-size: 1.15em;
+}
+.card:hover{
+  transform: scale(1.07);/*da y5le el zorar ykbar lma el mouse gege 3leh */
+
+}
+
+
+.card i{
+  margin-bottom: 10%;
+  font-size:3em;
+
+
+}
+.card h2 ,.quote{
+  font-family: Georgia, serif;
+
+}
+.card1{
+  color: white;
+  background-color: #8F7E6D;
+}
+.card3{
+  background-color: #D0C2B4;
+}
+.card2{
+  background-color: #baa691;
+
+}
+.card4{
+  background-color: #E4E2E0;
+}
+.card3 i{
+  color:#685244;
+}
+.card4 i{
+  color:#685244;
+}
+.card2 i{
+  color:#685244;
+}
+.card1 p{
+  width: 80%;
+  font-size: 1.14em;
+}
+.card2 p{
+  width: 80%;
+  font-size: 1.14em;
+}
+.card3 p{
+  width: 80%;
+  font-size: 1.14em;
+}
+.card4 p{
+  width: 80%;
+  font-size: 1.14em;
+}
+.core{
+  background-color:#FCFAF7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;/*lazmto lw el container 7gmo 2al 3n el items yro7 nazl satr gded badl ma el items t5rog bara el container*/
+  justify-content: center;
+  width: 85%;
+}
+
+.tecpec{
+ width: 20%;
+
+}
+
+.maintopics{
+  margin-left: 2.9%;
+  width: 40%;
+  float: right;
+}
+.maintextheader h1{
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 2.25em;
+  text-align: center;
+}
+.maintextheader img{
+
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.box img,p{
+  width: 45%;
+  height: auto;
+}
+.box p{
+  padding: 5%;
+}
+
+.middle1{
+
+  text-align: center;
+  background-color:#075a5f;
+  color: white;
+  padding: 1.5%;
+  letter-spacing: 2px;
+}
+.middle1 h1{
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 2.50em;
+  margin-top: 1%;
+  text-transform: capitalize;
+
+
+}
+.middle2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #b69249;
+  padding: 1%;
+}
+.middleTxt{
+  width: 57%;
+  margin-left: 3%;
+  color: white;
+
+
+}
+.middleVideo{
+  margin-top: 1.9em;
+  width: 38%;
+  margin-right: 3%;
+
+}
+.middleTxt h1{
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 2.25em;
+  margin-bottom: 2%;
+  width: 80%;
+
+
+
+}
+.middleTxt p{
+  font-family:  Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+  font-size: 1.1979em;
+width: 60%;
+}
+.slideSection{
+  background-color: rgba(27,31,34,0.75);
+  height: 40.375em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.slideSection h1{
+  font-family: Georgia, serif;
+  font-size: 2.59em;
+  margin-bottom: 15%;
+  color: white;
+  letter-spacing: 0.2em;
+
+
+
+}
+.slideShow{
+
+  width: 70%;
+  height: 25em;
+  position: relative;
+  transform: translate(50% ,50%,50%,50%);
+  background-image: url("../media/slide_5.jpg");
+  background-size: 100% 100% ;
+  box-shadow: 1px 2px 10px  10px white;
+  animation: slider 9s infinite linear ;/*the animation-duration property defines how long time an animation should take to complete..
+  the animation -iteration -count property specifies the number of tiomes an animation should run.
+   the animation-timing -function property specifies the speed curve of the animation(linear)-->lSpecifies an animation with the same speed from start to end*/
+}
+/*to use scc animation ,you must first specify some keyframes for the animation*/
+@keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
+   {
+     0%{background-image: url("../media/slide_5.jpg");  }
+
+     35%{background-image: url("../media/control.jpg"); }
+
+     70%{ background-image: url("../media/think of a master plan.jpg"); }
+
+}
+
+.parkingContainer{
+  background-color: #FCFAF7;
+  display: flex;
+  flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding: 5%;
+
+
+}
+.parkingContent{
+  display: flex;/*5allet el content fe el nos bl zabt*/
+  flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+  background-color: white;
+  width: 80%;
+  padding: 5%;
+
+
+}
+.parkingPic{
+  width: 50%;
+
+}
+.parkingText{
+width: 50%;
+color: #5d493c;
+
+}
+.parkingText img{
+  width: 30em;
+  position: relative;
+  right: 5em;
+}
+.parkingText h1{
+  font-family: Georgia, serif;
+  font-size: 3.9em;
+margin-top: .546em;
+margin-top: .546em;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+  font-weight: bolder;
+
+}
+.parkingText p{
+text-align: center;
+
+  font-size: 1.5em;
+  width: 80%;
+}
+
+
+.review .review-slider{
+  padding-bottom: 2rem;
+
+}
+
+ .review ,.Box{
+   padding: 6rem;
+   text-align: center;
+   box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+   border-radius: 0.5rem;
+   l
+
+ }
+.review .Box img{
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+.review .Box h3{
+  color: #333;
+  font-size: 2.5rem;
+
+
+}
+.review .Box span{
+  color: #666;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  margin-left: 26%;
+
+
+}
+.review .Box .stars i{
+  color: orange;
+  font-size:1.7rem;
+}
+
+.hero{
+  width: 100%;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  padding:2%;
+
+}
+.hero h1{
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 3.5em;
+  position: relative;
+  margin-bottom: 2em;
+  color: #0b888e;
+
+}
+.hero h1::after{
+  content: '';
+  width: 9.375em;
+  height: 0.1875em;
+  background: linear-gradient(to right ,#f44336,#9f4bd5);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.review-box{
+  width: 90%;
+  max-width: 43.95em;
+  height: 18.78em;
+  border-radius: 0.625em;
+  box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.Card{
+  height: 18.75em;
+  padding: 2.5em;
+  color: #685244;
+  line-height: 1.375em;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+.profile img{
+  width: 4.375em;
+  border-radius: 50%;
+  margin-right: 1.25em;
+}
+.profile h3{
+  font-size: 1.625em;
+  color: #075a5f;
+  margin-bottom: .5em;
+  line-height: 1.2em;
+}
+#slide{
+  width: 100%;
+  padding-right:3.75em;
+  box-sizing: border-box;
+  position:absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+
+}
+.sideBar{
+  width: 3.75em;
+  height:100%;
+  padding: 0.9375em;
+  box-sizing: border-box;
+  background-color: #075a5f;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sideBar i{
+  width: 1.5625em;
+  padding:0.3125em;
+  color: #fff;
+  cursor: pointer;
+}
+.Card::before{
+  content: '';
+  width: 6.875em;
+  height: 6.875em;
+  border-bottom-right-radius: 100%;
+  background-color:#075a5f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+::selection{
+ background-color:#075a5f;
+ color: white;
+}
+
+
+.last{
+  background-color: #685244;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 2.75em;
+  margin-bottom: 15%;
+  color: white;
+  margin-top: 1%;
+  padding: 5%;
+  text-align: center;
+
+}
+.vedio{
+  width: 100%;
+display: flex;
+justify-content: center;
+padding: 4%;
+background-color: #fcfaf7;
+}
+
+.vedioContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-direction: column;
+width: 75%;
+background-color: white;
+}
+
+.aVedio  {
+ width: 75%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.aVedio iframe{
+  width: 90%;
+  height: 100%;
+
+}
+
+.vedioTxt{
+  margin: 3%;
+  text-align:center;
+}
+.vedioTxt h1{
+  color: #816131;
+  font-weight: 700;
+  font-size: 2.75em;
+  margin-top: 1.2%;
+  letter-spacing: 0.2em;
+
+}
+.vedioTxt span{
+  font-family: Georgia, serif;
+  color: #777;
+  font-weight: bolder;
+  letter-spacing: 1.3em;
+}
+/*.parkingContainer{
+  display: flex;
+  flex-wrap: wrap;*//*lazmto lw el container 7gmo 2al 3n el items yro7 nazl satr gded badl ma el items t5rog bara el container*/
+  /*justify-content: center;
+  width: 84%;
+  padding: 4%;
+}
+.parkingtxt{
+
+  width: 28.66%;
+  padding: 4%;
+
+
+}
+.parkingtxt h1{
+
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-bottom: .5em;
+}
+
+.parkingtxt p{
+text-align: center;
+}
+.parkingimg1{
+
+}
+
+.container_3 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container_3:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+*/
+
+/* Slideshow container *//*
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+*/
+/* Hide the images by default */
+/*.mySlides {
+  display: none;
+}
+*/
+/* Next & previous buttons */
+/*.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+*/
+/* Position the "next button" to the right */
+/*.next {
+  right: 0;
+  border-radius: 3px 3px 3px 3px;
+}
+*/
+/* On hover, add a black background color with a little bit see-through */
+/*.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+*/
+/* Caption text */
+/*.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+*/
+/* Number text (1/3 etc) */
+/*.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+*/
+/* The dots/bullets/indicators */
+/*.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+*//* Fading animation */
+/*.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+
+table ,th, td  {
+  margin: 30px;
+  color:#ffffff;
+}
+table td ,th{
+  padding: 30px;
+  background-color:#b8a193;
+  text-align-last: center;*/ /*The text-align-last property specifies how to align the last line of a text.hena l7ad el br */
+/*font-size: 1.2em;
+margin: 0;
+}
+table th {
+  text-transform:uppercase;
+}
+#white{
+  background: white;
+  color: #506C82;
+}
+.ph{
+  justify-content: center;
+}
+*/
+/*h2{
+  font-size: 2vw;}/*which means the "viewport width".*/
+
+
+.sub1 th{
+  text-align: justify;
+  /*text-align-last: center; The text-align-last property specifies how to align the last line of a text.hena l7ad el br */
+  font-size: 1em;
+text-transform: capitalize;
+
+}
+#pec1{
+  background-image: url("../media/boost.JPG");
+    background-size: 100%  100%;
+    height:250px;
+
+
+}
+#pec2{
+  background-image: url("../media/wast.JPG");
+  background-size: 100%  100%;
+  height:250px;
+}
+#pec3{
+  background-image: url("../media/booking.JPG");
+  background-size: 100%  100%;
+  height:250px;
+}
+#pec4{
+  background-image: url("../media/promotional.JPG");
+  background-size: 100%  100%;
+  height:250px;
+}
+#pec5{
+  background-image: url("../media/slider_02.jpg");
+  background-size: 100%  100%;
+  height:250px;
+}
+.opinion{
+/* background-image: url("../media/bg_07.jpg");*/
+background: url("../media/bg_07.jpg") no-repeat;
+background-size: cover;
+background-position: center;/*mmkn ykon a7san mn 7es el m2asat*/
+/*background-attachment: fixed;*//*bt5ally el sora ta5od w tetdy*/
+  font-size: 30px;
+  float: right;
+}
+/*inline element msh byt3ml 3leh margin*/
+.title{
+  display: flex;
+  justify-content: center;/*bysht8al m3 flex bas*/
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+/*.content{
+  display: flex;
+  justify-content: center;
+ flex-direction: row;*//*34an el krot tkon gamb ba3d */
+/*  flex-wrap: wrap;*//*34an el krot lma tzed ynzlo satr gded  badl ma 7gm el card el wa7ed ye2el w el shakl yboz  w default nowrap
+}*/
+/*.card{
+  padding: 30px;
+  background-color:#00A0D0;
+  text-align-last: center;*/ /*The text-align-last property specifies how to align the last line of a text.hena l7ad el br */
+/*font-size: 1.2em;
+margin: 0;
+box-shadow:0 5px 15px*/ ;/*a5er kema hea kowa el lon*/
+/*box-shadow: rgba(1, 1, 1, 15%); /*a5er kema hea shafafyt el lon*/

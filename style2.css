@@ -1,0 +1,674 @@
+*{
+  margin: 0;
+  padding: 0;
+  white-space: wrap;/*bt5aly el klam lma yktar fe el satr el saf7a mat3rdh w el klam ynzel el satr ely ba3do*/
+}
+body{
+  font-family: system-ui;
+}
+a{
+  text-decoration: none;/*عشان يشيل الخط اللي تحته*/
+
+}
+.first {
+
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.1)), url("../media/amol-tyagi-0juktkOTkpU-unsplash3.jpg");
+  background-position: center;
+  background-size: cover;/*bt5li el sora temla el el main kolha */
+  min-height:100vh;
+  width: 100%;
+  /*clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%, 0 0);*/
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  letter-spacing: .1em;
+  flex-wrap: wrap;;
+
+  object-fit: cover;
+
+}
+
+
+.first h1{
+  letter-spacing: .1em;
+  font-size: 2.7em;
+  font-weight: 800;
+  text-transform:uppercase;
+
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: rgba(255,255,255,0.7);
+  margin-top: 5.5%;
+
+}
+.first span{
+  font-weight: 500;
+  margin-top: .9%;
+  font-size: 1.4em;
+  width: 60%;
+}
+.scrollDown{
+  position: relative;
+  top:200px;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-160px) translateX(-50%) rotate(45deg);
+
+}
+.scrollDown span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3.5px solid #704c42 ;
+  border-right: 3.5px solid #a16d5e ;
+  animation: animate 1.2s linear infinite;
+  opacity: 0;
+
+}
+.scrollDown span:nth-child(1)
+{
+  transform: translate(-15px,-15px);
+  animation-delay: -0.4s;
+}
+
+.scrollDown span:nth-child(2)
+{
+  transform: translate(0,0);
+  animation-delay: -0.2s;
+}
+
+.scrollDown span:nth-child(3)
+{
+  transform: translate(15px,15px);
+  animation-delay: 0s;
+}
+
+@keyframes animate {
+    0%
+    {
+      top:-5px;
+      left:-5px;
+      opacity: 0;
+    }
+    25%
+    {
+      top:0px;
+      left:0px;
+      opacity: 1;
+    }
+    100%
+    {
+      top:-5px;
+      left:-5px;
+      opacity: 0;
+    }
+}
+#Protection{
+   background-color: #e1e6ea;
+   padding: 1%;
+
+}
+
+
+.content{
+display: flex;
+align-items: center;
+justify-content:center;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+
+
+}
+
+.safetyList{
+  margin-top: 1%;
+
+  overflow: hidden;
+  height: 50vh;
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:center;
+  flex-wrap:wrap;
+  font-size: 1.8em;
+  background-color: white;
+  padding: 7%;
+  background-color: #aa7b6e;
+
+}
+
+.safetyList h1{
+  font-family: Georgia, serif;
+  margin-bottom: .255em;
+  font-size: 2em;
+  font-weight: 400;
+  color: #fff;
+  text-align-last: center;
+
+}
+
+.safetyList ul{
+  font-family: Georgia, serif;
+  list-style: circle;
+  line-height: 1.2em;
+  margin-right: 20%;
+  font-size: 1.0em;
+line-height:1.8em;
+margin-left: 1em;
+
+}
+
+.safetyList a:visited {
+  color:#fff;
+}
+.safetyList a:hover{
+  color:  rgba(255,255,255,.9);
+  letter-spacing: .01554em;
+
+}
+
+.safetyList button{
+  gap:10px;
+  padding: 12px 36px;
+  margin: 20px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color:#894343;
+  overflow: hidden;
+  transform: .5s;
+  background-size: 200% auto;
+   border-style: hidden;
+   transition: 0.7s ease ;
+
+}
+
+.safetyList button:hover{
+    transform: scale(1.03);
+    letter-spacing: .5em;
+}
+.photos{
+  background-image: url("../media/acessControl.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  width: 30%;
+  height: 62vh;
+transition-timing-function: linear;
+border-radius: 50%;
+transform: translate(50% ,50%,50%,50%);
+background-size: 100% 100% ;
+animation: slider 8s infinite linear ;
+position: absolute;
+right: 14.0%;
+}
+
+  @keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
+     {
+       0%{background-image: url("../media/acessControl.jpg");  }
+       20%{background-image: url("../media/fire2.jpg"); }
+        40%{background-image: url("../media/virus.jpg"); }
+       60%{background-image: url("../media/human.jpg"); }
+       80%{background-image: url("../media/Vehicle Security.jpg"); }
+       100%{ background-image: url("../media/acessControl.jpg"); }
+
+  }
+  .photos:hover{
+    cursor: none;
+  }
+  .testimonials{
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #000;
+    float: left;
+    width: 100%;
+    padding: 100px 15px;
+
+  }
+  .testimonials .title h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  .testimonials.title{
+    margin-bottom: 60px;
+  }
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+
+ .testimonials.slider{
+   border:1px solid #333;
+   max-width:600px;
+   margin:auto;
+   padding: 30px;
+  text-align: center;
+ }
+
+ .slider .slide{
+   display: none;
+ }
+.slider .active{
+  display: block;
+  animation: slide 4s ease;
+}
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.slider p{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+ .testimonials.slider.slideInfo h3{
+   font-weight: bold;
+   color: #fff;
+   font-size: 18px;
+   margin: 30px 0;
+ }
+.slideInfo span{
+  display:block;
+  font-size: 16px;
+  color: #21d0ec;
+  text-align: center;
+}
+.slideIndecator{
+  text-align: center;
+  padding-top: 40px;
+}
+.slideIndecator img{
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+  opacity: .2;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: opacity 1s ease;
+}
+ .slideIndecator .active{
+  opacity: 1;
+}
+
+
+table , th, td{
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: Georgia, serif;
+}
+th, td{
+   padding: 15px;
+}
+tr:nth-child(even) {
+  background-color:#e6e6e6;
+}
+table{
+  border: 2px solid #e6e6e6;
+}
+th{
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+caption{
+  font-family: Georgia, serif;
+  margin-top: 2%;
+  font-size: 1.9em;
+}
+.table i{
+  color: #F6BE16;
+}
+.Form{
+height: 80vh;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+justify-content: center;
+padding: 2%;
+background-image: url("../media/main.jpg");
+background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 3%;
+
+}
+
+.form{
+padding: 2.875em  4.125em;
+
+}
+.formCont{
+
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+
+}
+.formHeader{
+  background-color: #f7f7f7;
+  padding: 1.875em  5.125em;
+  border-bottom: 1px solid #f0f0f0;
+
+}
+ .formHeader h2{
+   margin: 0;
+
+
+ }
+.formControl{
+  margin-bottom: 15px;
+
+  position: relative;
+}
+
+.formControl label{
+
+  margin-bottom: 20px;
+
+}
+.formControl input{
+  border: 2px solid #f0f0f0;
+  border-radius:4px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+}
+.formControl i{
+  position: absolute;
+  top: 34px;
+  right: 6px;
+  visibility: hidden;
+}
+
+.formControl small{
+  visibility: hidden;
+
+
+
+}
+.form button{
+  background-color: #704242;
+  border:2px solid #704242;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+
+}
+.formControl.success input{
+  border-color: #2ecc71;
+}
+
+.formControl.success i.fa-circle-check{
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.formControl.error input{
+  border-color: #e74c3c;
+}
+
+.formControl.error i.fa-circle-exclamation{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.formControl.error small{
+  visibility: visible;
+  color: #e74c3c;
+}
+
+
+.customAlert{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  right: 0;
+  z-index: 999;
+  background-color: rgba(0,0,0,.7);
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#alertBOX{
+
+  border-radius: 5px;
+  height: 150px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 2px 2px 8px #333;
+  background-color: white;
+  font-size: 1.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#closebtn {
+  height:25px;
+  width: 85px;
+  border-radius: 15px;
+  background-color: #894343;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  border:1px solid #894343;
+
+}
+
+
+
+#btnScrollToTop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e62739;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color:#fff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+#btnScrollToTop:active{
+  background-color: #cc2333;
+}
+
+.main{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+
+width: 90%;
+margin: 0 auto 20px auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 2%;
+
+}
+.aa{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+
+
+}
+.box{
+  position: relative;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px lightgray;
+  cursor: pointer;
+}
+
+.box img{
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+.box::before{
+  content:"PHOTO GALLARY";
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:1.2em;
+  font-weight: bold;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .2s;
+  z-index: 1;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  bottom:0;
+  left: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: .3s;
+}
+.box:hover::after{
+  height: 100%;
+}
+.box:hover::before{
+  margin-top: 0;
+  opacity: 1;
+}
+.main h1{
+  font-weight: normal;
+  font-size: 1.5em;
+  position: relative;
+  margin: 40px 0;
+  height: 60px;
+
+}
+
+.main h1::before{
+  content: '';
+  position: absolute;
+  width: 7em;
+  height: 3px;
+  background-color: #cc2333;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
+  animation: hamoksha 4s linear infinite;
+}
+@keyframes hamoksha {
+  0%{
+    width: 100px;
+  }
+  50%{
+    width:200px;
+  }
+  100%{
+    width: 100px;
+  }
+}
+/*
+.box{
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+  border:1rem solid #fff;
+  border-radius: .5rem;
+  flex:1 1 30rem;
+  height: 25rem;
+  position: relative;
+}
+
+.box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box .txt{
+  position: absolute;
+  top: 0;left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 2rem;
+  padding-top: 5rem;
+
+
+
+}
+.box .txt h3{
+  font-size: 2.5rem;
+  width: 80%;
+
+}
+
+.box .txt span{
+  font-size: 1.5rem;
+  color: #fff;
+  padding: .5rem 0;
+  width: 80%;
+}
+
+.box:hover .txt{
+  top:0;
+}
+*/
+
+/*fe el grid badal ma aktb 3ard kol column (grid-template-columns: 1fr 1fr 1fr) kda lw 3andy 60 3amod hakkrha el 7al: (grid-template-columns: repeat(6,1fr) )
+keda b2ol 3ndi 6 columns 2ad ba3d..............nfs el klam m3 el rows bs ........lw el content bta3 ay row zad 3n ely m7soblo bnst5dem:(grid-auto-rows :minmax(200px , auto)) 34an lw el content zad 7agmo el box eli hoa feh ykbar m3ah......
+e5tsar l (grid-row-gap: 5px;
+          grid-column-gap: 5px;)
+       how grid-gab : 20px 20px; --> rows w columns
+       grid-co    .............We design People Inspired Experiences that create positive change in people's lives.
+*/
