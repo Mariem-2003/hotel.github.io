@@ -50,7 +50,7 @@ header ul li a:hover{
   color: #668cff;
 }
 .main{
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)),url("../media/main.jpg") ;/* etgah el / e5tlaf 3n el html*/
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)),url("main.jpg") ;/* etgah el / e5tlaf 3n el html*/
   background-position: center;
   background-size: cover;/*bt5li el sora temla el el main kolha */
   min-height: 70vh;
@@ -317,7 +317,7 @@ width: 60%;
   height: 25em;
   position: relative;
   transform: translate(50% ,50%,50%,50%);
-  background-image: url("../media/slide_5.jpg");
+  background-image: url("slide_5.jpg");
   background-size: 100% 100% ;
   box-shadow: 1px 2px 10px  10px white;
   animation: slider 9s infinite linear ;/*the animation-duration property defines how long time an animation should take to complete..
@@ -327,11 +327,11 @@ width: 60%;
 /*to use scc animation ,you must first specify some keyframes for the animation*/
 @keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
    {
-     0%{background-image: url("../media/slide_5.jpg");  }
+     0%{background-image: url("slide_5.jpg");  }
 
-     35%{background-image: url("../media/control.jpg"); }
+     35%{background-image: url("control.jpg"); }
 
-     70%{ background-image: url("../media/think of a master plan.jpg"); }
+     70%{ background-image: url("think of a master plan.jpg"); }
 
 }
 
