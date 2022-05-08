@@ -92,6 +92,15 @@ header{
   
 
 }
+  .button{
+    margin-left: 200px;
+    border: 70px  50px;
+    border-color: black;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;}
+
 .mm{
  
   border-radius: 20px;
