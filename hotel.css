@@ -261,27 +261,7 @@ footer.footer{
 /* Make the image responsive */
 .page img {
   width: 1500PX;
-  height: 250PX;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.page .btn {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.page .btn:hover {
-  background-color: black;
+  height: 400PX;
 }
 .row4 {
 
