@@ -218,14 +218,14 @@ position: absolute;
 right: 14.0%;
 }
 
-  @keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
+@keyframes slider /*when you specify css styles insidethe @keyframes rule ,the animation will gradually change from the current style to the new style at cetain times */
      {
        0%{background-image: url("acessControl.jpg");  }
        20%{background-image: url("fire2.jpg"); }
         40%{background-image: url("virus.jpg"); }
        60%{background-image: url("human.jpg"); }
        80%{background-image: url("Vehicle Security.jpg"); }
-       100%{background-image: url("acessControl.jpg");  }
+       100%{ background-image: url("acessControl.jpg"); }
 
   }
   .photos:hover{
