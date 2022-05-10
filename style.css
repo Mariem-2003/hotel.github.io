@@ -338,6 +338,8 @@ div.imagee{
   position: relative;
   width: 50%;
   height: 50%;
+ margin:15px;
+  padding: 0px;
 }
 img.image__img {
   display: block;
