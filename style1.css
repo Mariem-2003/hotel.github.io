@@ -50,7 +50,7 @@ header ul li a:hover{
   color: #668cff;
 }
 .main{
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)),url("../media/main.jpg") ;/* etgah el / e5tlaf 3n el html*/
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.1)),url("main.jpg") ;/* etgah el / e5tlaf 3n el html*/
   background-position: center;
   background-size: cover;/*bt5li el sora temla el el main kolha */
   min-height: 70vh;
@@ -431,7 +431,7 @@ text-align: center;
 }
 
 .hero{
-  width: 93%;
+  width: 90%;
   background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
