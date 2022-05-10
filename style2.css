@@ -414,58 +414,6 @@ padding: 2.875em  4.125em;
   border:1px solid #894343;
 
 }
-footer.footer{
-  background-color: rgb(2, 11, 39);
-  font-style: oblique;
-  color:#fff5ee;
-  margin: 0 10 0 10px;
-
-}
-  img.face{
-    width: 33px;
-    margin:10px;
-    }
-    img.insta{
-    width: 33px;
-    margin:10px;
-    }
-    img.twit{
-     width: 33px;
-     margin:10px;
-     }
-     img.whats{
-      width: 33px;
-      margin:10px;
-     }
-     p#copy-right{
-         text-align: center;
-     }
-     p#copy-right span{
-         color: sienna;
-         font-family: serif;
-     }
-     footer.footer p.foot{
-      display: inline-block;
-      font-weight: bold;
-      font-size: 20px;
-  }
-  p.foot{
-      margin: 20px 50px 0px 30px;
-  }
-  div.null{
-      color: slategray;
-      font-size: smaller;
-      margin-top: 10px;
-      margin-left: 522px;
-  }
-  div.null2{
-      color: slategray;
-      font-size: smaller; 
-      margin-top: -80px;
-      margin-left: 220px;
-      margin-bottom: 80px;
-  }
-
 
 #btnScrollToTop{
   position: fixed;
