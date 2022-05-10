@@ -356,8 +356,8 @@ justify-content: center;
 
 
 }
-.parkingPic{
-  width: 50%;
+.parkingPic img{
+  width: 100%;
 
 }
 .parkingText{
