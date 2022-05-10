@@ -429,7 +429,7 @@ text-align: center;
 }
 
 .hero{
-  width: 100%;
+  width: 90%;
   background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
