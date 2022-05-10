@@ -225,7 +225,7 @@ right: 14.0%;
         40%{background-image: url("virus.jpg"); }
        60%{background-image: url("human.jpg"); }
        80%{background-image: url("Vehicle Security.jpg"); }
-       100%{ background-image: url("acessControl.jpg"); }
+       100%{ background-image: url("human.jpg"); }
 
   }
   .photos:hover{
