@@ -127,47 +127,50 @@ footer.footer{
   margin: 0 10 0 10px;
 
 }
-
-img.face{
-width: 22px;
-}
-img.insta{
-width: 22px;
-}
-img.twit{
-width: 22px;
-}
-img.whats{
-width: 22px;
-}
-p#copy-right{
-   text-align: center;
-}
-p#copy-right span{
-   color: sienna;
-   font-family: serif;
-}
-
-footer.footer p.foot{
-  display: inline-block;
-  font-weight: bold;
-}
-p.foot{
-  margin: 20px 50px 0px 30px;
-}
-div.null{
-  color: slategray;
-  font-size: smaller;
-  margin-top: -60px;
-  margin-left: 522px;
-}
-div.null2{
-  color: slategray;
-  font-size: smaller; 
-  margin-top: -80px;
-  margin-left: 220px;
-  margin-bottom: 80px;
-}
+  img.face{
+    width: 33px;
+    margin:10px;
+    }
+    img.insta{
+    width: 33px;
+    margin:10px;
+    }
+    img.twit{
+     width: 33px;
+     margin:10px;
+     }
+     img.whats{
+      width: 33px;
+      margin:10px;
+     }
+     p#copy-right{
+         text-align: center;
+     }
+     p#copy-right span{
+         color: sienna;
+         font-family: serif;
+     }
+     footer.footer p.foot{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  p.foot{
+      margin: 20px 50px 0px 30px;
+  }
+  div.null{
+      color: slategray;
+      font-size: smaller;
+      margin-top: 10px;
+      margin-left: 522px;
+  }
+  div.null2{
+      color: slategray;
+      font-size: smaller; 
+      margin-top: -80px;
+      margin-left: 220px;
+      margin-bottom: 80px;
+  }
 .FONT{font-family: MERINDA;
   background-color: #fff;
   
