@@ -1,28 +1,15 @@
-class slider {
-    constructor(){
-        this. images =[];
-        this.images [0]="img/puyt.jpg";
-        this.images [1]="img/Thanks For Reading.png";
-          
+function button(){
+    if(document.form1.password.value=="" && document.form1.email.value==""){
+     alert("enter your  email and password");
+    }
 
-        this. links=[];
-        this. links[0]="#";
-        this. links[1]="#";
-        this.counter=0;
-        this.playslider();
-        setInterval(()=>{
-            this.playslider();
-        },4000)
+    else if(document.form1.email.value=="" && document.form1.password.value==""){
+       alert("enter your email");
+    } else if( document.form1.password.value==""){
+        alert("enter your password");
     }
-    playslider(){
-        if(this.counter< this.counter.length-1){
-            this.counter++;
-        }
-        else{
-            this.counter=0;
-        }
-        document.slider_show.src = this.images[this .counter];
-        document .getElementById("show").href=this. links[this.counter];
+    else{
+   alert("can you come on for me to recoginze some sevices");
     }
+    
 }
-onload=new slider();
