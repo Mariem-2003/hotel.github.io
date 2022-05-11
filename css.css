@@ -680,5 +680,16 @@ h2.next{
     color:rgb(110, 7, 7);
     margin-left: 20%;
 }
-
+button.smart{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.smart:hover{
+    background-color: rgb(107, 46, 3);
+   }
 
