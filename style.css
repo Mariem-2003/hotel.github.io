@@ -885,7 +885,7 @@ div.card:hover{
    }
  iframe.ff{
     padding: 20px;
-    margin: 20px;
+    margin: 31px;
     border :25px  solid  rgb(202, 168, 185);
    }
    body.a2{
@@ -896,7 +896,7 @@ div.card:hover{
   }
   div.conn{
   position: relative;
-  top:30%;
+  top:20%;
   left:30%;
   transform:translate(-50%,-50%);
   width:800px;
