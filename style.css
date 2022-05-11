@@ -884,7 +884,7 @@ div.card:hover{
      font-size: 40px;
    }
  iframe.ff{
-    padding: 20px;
+    padding: 0px;
     margin: 31px;
     border :25px  solid  rgb(202, 168, 185);
    }
