@@ -1,121 +1,115 @@
-  #search{
-    color:rgb(15,33,83);
-    margin: 37px;
-
+img.header{
+    border-radius: 15px;
 }
-#input1{
-    color: rgb(15, 33, 83);
-    margin: 40;
-    padding: 0;
-    height: 25px;
-    width: 250px;
-    border: none;
-    outline: none;
-    border-bottom: rgb(15, 33, 83) solid 2px;
-    background-color: transparent;
-}
-#input2{
-    background-color: rgb(15, 33, 83);
-    color: seashell;
-    border-radius: 6px;
-    margin: 30px;
-}
-
-div.search{
-    display: flex;
-}
-header.header{
-    background-color:rgb(15, 33, 83);
-    color:rgb(252, 243, 231); 
-    height: 170px;
-    font-family: Garamond,serif,Times,Arial ;
-    font-size: larger;
-    margin: 0%;
-}
-#logo{
-
-    width: 40px;
-    top: 100px;
-    right:40px;
-
+div.nav{
+   background-color: rgba(163, 109, 48, 0.607);
+   padding: .3%;
+   width: 45%;
+   float: right;
+   border-radius: 20px;
+   margin-top: .7%;
+   margin-bottom: 1%;
 }
 ul.nav{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: flex;/*make them at one line*/
-    list-style-type: none;/*remove the list marks*/
-    float: right;
-
+    display: flex;
+    list-style-type:none;
 }
-
 ul.nav li{
-    margin: 30px;/*to make spaces betwean them*/
+    margin-left: 12%;
 }
-li.h a{
+li.home a{
     text-decoration: none;
-    padding: 6px 15px;
-    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    padding: 20%;
 }
-li.f a{
-text-decoration: none;
-padding: 6px 15px;
-border-radius: 20px;
+li.home a:link{
+    color: rgb(132, 65, 34);
 }
-li.c a{
+li.home a:visited{
+    color: rgb(132, 65, 34);
+}
+li.feed a{
     text-decoration: none;
-    padding: 6px 15px;
-    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;  
+    padding: 15%; 
 }
-li.a a{
+li.feed a:link{
+    color: rgb(132, 65, 34);
+}
+li.feed a:visited{
+    color: rgb(132, 65, 34);
+}
+li.about a:visited{
+    color: rgb(132, 65, 34);
+}
+li.about a:link{
+    color: rgb(132, 65, 34);
+}
+li.about a{
     text-decoration: none;
-    padding: 6px 15px;
-    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    padding: 20%;
 }
-li.h a:hover{
-    background-color: rgb(15, 33, 83);
+li.home a:hover{
+    background-color: rgba(128, 63, 17, 0.653);
+    color: seashell;
+    border-radius: 15px;
+}
+li.feed a:hover{
+    background-color: rgba(128, 63, 17, 0.653);
+    border-radius: 15px;
     color: seashell;
 }
-li.f a:hover{
-    background-color: rgb(15, 33, 83);
+li.about a:hover{
+    background-color: rgba(128, 63, 17, 0.653);
+    border-radius: 15px;
     color: seashell;
 }
-li.c a:hover{
-    background-color: rgb(15, 33, 83);
-    color: seashell;
-}
-li.a a:hover{
-    background-color: #0f2153;
-    color: seashell;
-}
+div.search{
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-left: 2%;
 
+}
+h3#search{
+    color: saddlebrown;
+    margin: .5%;
+}
+form.search{
+    margin-left: 2%;
+    display: flex;
+}
+#input1{
+    border: none;
+    outline: none;
+    border-bottom: rgb(96, 54, 2) solid 2px;
+    border-left: rgb(96, 54, 2) solid 2px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+#input2{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(231, 160, 68);
+    color: saddlebrown;
+    margin-left: 2.5%;
+    font-weight: bold;
+}
+#input2:hover{
+    background-color: rgb(172, 87, 27);
+    color: seashell;
+}
 footer.footer{
     background-color: rgb(2, 11, 39);
     font-style: oblique;
     color:#fff5ee;
     margin: 0 10 0 10px;
 }
-h2.log{
-    color: tomato;
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 30px;
-}
-div.boxes{
-    margin-left:  25px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    margin-top: 30px;
-}
-form.log{
-    bottom: 600px;
-    left:400px;
-}
-/*form.log p{
-    color: slategray;
-    margin-left: 20px;
-    margin-top: 50px;
-}*/
 div.social-icons{
     margin-left: 30px;
     margin-top: 30px;
@@ -136,16 +130,9 @@ img.twit{
      text-align: center;
  }
  p#copy-right span{
-     color: sienna;
+     color: rgb(182, 101, 64);
      font-family: serif;
  }
-
-body.login img.login{
- width: 99%;
- margin-left: 6px;
- opacity: .5;/*makes img not clear 100%*/
-}
-
 footer.footer p.foot{
     display: inline-block;
     font-weight: bold;
@@ -169,18 +156,25 @@ div.null2{
 body.home{
     background-color:seashell ;
 }
-h2.head{
-    margin-left: 30px;
-    color: #020b27;
-    text-shadow: rosybrown;
-    font-weight: bold;
+iframe.iframe-home{
+        border-radius: 20px;
+        border-color: black;
+        margin-left: 22%;
 }
+div.iframe-home{
+    background-color: #f7d49e;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5%;
+    margin-top: 7%;
+}
+
 body.rooms1{
-  background-color: seashell;
+    background-color: seashell;
     }
 
 h1.title{
-    color: rgb(15, 33, 83);
+    color: saddlebrown;
     margin: 2%;
   
 }
@@ -190,6 +184,102 @@ video.rooms{
     border-radius: 25px;
     margin-left: 30%;
     margin-right:30%;
+}
+button.reception{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.reception:hover{
+ background-color: rgb(107, 46, 3);
+}
+button.rooms{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.rooms:hover{
+    background-color: rgb(107, 46, 3);
+   }
+button.disabled{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.disabled:hover{
+    background-color: rgb(107, 46, 3);
+   }
+button.resturant{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.resturant:hover{
+    background-color: rgb(107, 46, 3);
+   }
+button.waterbodies{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    margin-left: 25%;
+}
+button.waterbodies:hover{
+    background-color: rgb(107, 46, 3);
+   }
+button.trips{
+    background-color: saddlebrown;
+    color: seashell;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+button.trips:hover{
+    background-color: rgb(107, 46, 3);
+   }
+section.categories{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+}
+section.about-us{
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+h2.welcome{
+    color: rgb(125, 57, 9);
+    font-style: italic;
+    margin: 2%;
+}
+p.welcome{
+    color: rgb(183, 121, 76);
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 7%;
+}
+span.welcome{
+    color: sandybrown;
 }
 h2.single{
     margin-top: 4%;
@@ -249,10 +339,6 @@ h2.suite{
     margin-left: 3%; 
     color:darkcyan ;
 }
-/*div.suite{
-    margin-left:5%;
-    margin-right:5%;
-}*/
 p.suite{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
@@ -278,6 +364,12 @@ button.booking{
    padding: 10px;
    border-radius: 10px;
    margin-left: 8%;
+   border: none;
+}
+button.booking:hover{
+    background-color: #556388c7;
+    color: #0f2153;
+    font-weight: bold;
 }
 h3.price1{
     margin-left:8%;
@@ -358,60 +450,82 @@ section.suite{
 }
 img.room1{
     margin-right: 1.5%;
+    border-radius: 10px;
 }
 img.room2{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room3{
     margin-right:1.5%;
+    border-radius: 10px;
+}
+img.room4{
+    border-radius: 10px;
 }
 img.room5{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room6{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room7{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room8{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room9{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room10{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room11{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room12{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room13{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room14{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room15{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room16{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room17{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room18{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room19{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 img.room20{
     margin-right:1.5%;
+    border-radius: 10px;
 }
 section.king{
     background-color: rgba(210, 209, 209, 0.881);
@@ -444,16 +558,19 @@ img.king1{
     width: 21%;
     margin-right: 3%;
     margin-left: 2%;
+    border-radius: 10px;
 }
 img.king2{
     width: 19%;
     margin-right: 3%;
     margin-left: 2%;
+    border-radius: 10px;
 }
 img.king3{
     width: 20%;
     margin-right: 3%;
     margin-left: 4%;
+    border-radius: 10px;
 }
 h2.queen{
     margin-top: 4%;
@@ -465,16 +582,19 @@ img.queen1{
     width: 19%;
     margin-right: 3%;
     margin-left: 2%;
+    border-radius: 10px;
 }
 img.queen2{
     width: 22%;
     margin-right: 3%;
     margin-left: 2%;
+    border-radius: 10px;
 }
 img.queen3{
     width: 20%;
     margin-right: 3%;
     margin-left: 2%;
+    border-radius: 10px;
 }
 p.queen{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -484,6 +604,7 @@ p.queen{
 }
 img.queen4{
     width: 20px;
+    border-radius: 10px;
 }
 h3.priceq1{
     margin-left: 8%;
@@ -497,18 +618,22 @@ h5.priceq2{
 img.pre1{
     margin-right: 1.5%;
     width: 22%;
+    border-radius: 10px;
 }
 img.pre2{
     margin-right: 1.5%;
     width: 22%;
+    border-radius: 10px;
 }
 img.pre3{
     margin-right: 1.5%;
     width: 22%;
+    border-radius: 10px;
 }
 img.pre4{
     margin-right: 1.5%;
     width: 21%;
+    border-radius: 10px;
 }
 p.pre{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -529,17 +654,22 @@ h5.pricep2{
     margin-top:2%;
 }
 button.next{
-    background-color: rgb(110, 7, 7);
-    color: black;
+    background-color: rgba(22, 7, 67, 0.557);
+    color: rgb(226, 232, 243);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 50%;
     font-weight: bolder;
     font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
     border-style: none;
     float:right;
     margin-bottom: 7%;
     font-size: larger;
     margin-right: 10%;
+}
+button.next:hover{
+    background-color: rgb(60, 53, 83);
+ 
 }
 section.next{
     background-color: antiquewhite;
