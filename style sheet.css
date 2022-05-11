@@ -289,4 +289,12 @@ tr:nth-child(even) {
 td{
   border:2px 2px 5px 5px;
 }
-
+table:hover{
+  background-color: antiquewhite;
+}
+ button a:hover{
+  color: #f2f2f2;
+}
+button:hover{
+  background-color: rgb(13, 39, 13)
+}
