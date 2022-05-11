@@ -159,7 +159,7 @@ body.home{
 iframe.iframe-home{
         border-radius: 20px;
         border-color: black;
-        margin-left: 22%;
+        width:100%;
 }
 div.iframe-home{
     background-color: #f7d49e;
