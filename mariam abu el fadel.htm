@@ -41,11 +41,101 @@
   <h1 class="jj">LET'S GO!!</h1>
 </div>
 <br>
-<h2 class="yyy">The trip consists of many sections where we provide air-conditioned and comfortable buses because your safety and comfort is one of our priorities, then we will result in the places that will be mentioned in the table and the trip will be 3 hours during which meals will be distributed to all participants in the trip and then before returning to the hotel will be completely sure of Riding all participants and maintaining their safety and then returning to the hotel.
-</h2>
-   <center>
+<br>
+<div class="conn">
+  <div class="circle"></div>
+  <h1 class="iii"> THE DETAILS.. </h1>
+  <p class="sss">The trip consists of many sections where we provide air-conditioned and comfortable buses
+    because your safety and comfort is one of our priorities, then we will result in the places that will
+     be mentioned in the table and the trip will be 3 hours during which meals will be distributed to all 
+     participants in the trip and then before returning to the hotel will be completely sure of Riding all 
+     participants and maintaining their safety and then returning to the hotel.
+  </p>
+</div>
+<br>
+<br>
+<div class="slideshow-containerr">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="p35.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertexta">2 / 4</div>
+    <img src="p61.jpg" style="width:100%">
+    <div class="texta">Caption Two</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="p36.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="P27.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="p43.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="p45.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="p39.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  
+  
+  <a class="preva" onclick="plusSlides(-1)">❮</a>
+  <a class="nexta" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dota" onclick="currentSlide(1)"></span> 
+    <span class="dota" onclick="currentSlide(2)"></span> 
+    <span class="dota" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 <iframe  class="ff"  width="677" height="381" src="https://www.youtube.com/embed/tro-Pm8hNSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </center>
     <div class="wrapper">
       <div class="card">
         <img src="==.jpg">
@@ -379,7 +469,7 @@ Cavafy spent his working life as a journalist and civil servant, little recogniz
        </tbody>
      </table>
      </center>
-      <a href="mariam abu el fadel2.htm" class="a23">click me  </a>
+       <a href="mariam abu el fadel2.htm" class="a23">click me  </a>
    <br>
    <br>
    <br>
