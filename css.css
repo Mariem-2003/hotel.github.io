@@ -1,5 +1,5 @@
 img.header{
-    border-radius: 15px;
+    
 }
 div.nav{
    background-color: rgba(163, 109, 48, 0.607);
@@ -160,6 +160,7 @@ iframe.iframe-home{
         border-radius: 20px;
         border-color: black;
         width:100%;
+    margin-bottom:2%;
 }
 div.iframe-home{
     background-color: #f7d49e;
